@@ -1,0 +1,67 @@
+===============================================================
+     HOW TO RUN THE STUDENT MANAGEMENT SYSTEM (STEP-BY-STEP)
+===============================================================
+
+Folder Location:
+C:\Users\91997\Desktop\BhavanaMiniProjectJava
+
+---------------------------------------------------------------
+METHOD 1: THE EASIEST 1-CLICK WAY (NO COMMANDS NEEDED)
+---------------------------------------------------------------
+1. Open File Explorer.
+2. Go to: Desktop -> BhavanaMiniProjectJava
+3. Double-click the file named: "run.bat"
+   (The program will automatically compile and run in a new window!)
+
+
+---------------------------------------------------------------
+METHOD 2: USING COMMAND PROMPT (CMD)
+---------------------------------------------------------------
+Step 1: Open Command Prompt
+        - Press [Windows Key + R] on your keyboard.
+        - Type "cmd" and press Enter.
+
+Step 2: Go to the project folder
+        Copy and paste this command, then press Enter:
+        
+        cd C:\Users\91997\Desktop\BhavanaMiniProjectJava
+
+Step 3: Compile the Java files
+        Copy and paste this command, then press Enter:
+        
+        javac *.java
+
+Step 4: Run the program
+        Copy and paste this command, then press Enter:
+        
+        "C:\Java\jdk-1.8\bin\java.exe" Main
+
+
+---------------------------------------------------------------
+METHOD 3: USING POWERSHELL
+---------------------------------------------------------------
+Step 1: Open PowerShell
+        - Press [Windows Key + R] on your keyboard.
+        - Type "powershell" and press Enter.
+
+Step 2: Go to the project folder
+        Copy and paste this command, then press Enter:
+        
+        cd C:\Users\91997\Desktop\BhavanaMiniProjectJava
+
+Step 3: Compile the Java files
+        Copy and paste this command, then press Enter:
+        
+        javac *.java
+
+Step 4: Run the program
+        Copy and paste this command, then press Enter:
+        
+        & "C:\Java\jdk-1.8\bin\java.exe" Main
+
+---------------------------------------------------------------
+QUICK TIPS:
+- If you make any changes to the code, simply run Step 3 (javac *.java) 
+  and then Step 4 again.
+- To exit the program safely, enter 8 on the main menu.
+===============================================================
